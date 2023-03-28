@@ -5,8 +5,8 @@ pipeline {
  
         stage("Run tests") {
             steps {
-                echo "*******testing************"
-                sh 'pytest test_add.py'
+                echo "####testing####"
+                bat "pytest test_add.py"
             }
         }
     }
